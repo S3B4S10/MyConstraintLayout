@@ -1,0 +1,11 @@
+<resources>
+    <string name="sintomatologia">IDENTIFICACION DE SINTOMAS</string>
+    <string name="P_malestar">¿Tienes malestar o dolor de garganta?</string>
+    <string name="P_fiebre">¿Tienes fiebre? (+38°C)</string>
+    <string name="P_respiraracion">¿Dificultad para respirar?</string>
+    <string name="P_perdida">¿Tienes pérdida del olfato y/o el gusto?</string>
+    <string name="P_vivienda">¿Vives con alguien sospechoso o confirmado de tener COVID-19?</string>
+    <string name="P_contacto">¿En los últimos 14 días has tenido contacto con alguien sospechoso o positivo para COVID-19?</string>
+    <string name="P_cercanoPositivo">¿Ha estado en contacto cercano con una persona que tenía COVID-19 síntomas ?</string>
+    <string name="boton_reportar">ENVIAR REPORTE</string>
+</resources>
