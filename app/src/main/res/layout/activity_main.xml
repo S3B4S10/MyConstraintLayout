@@ -15,7 +15,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:background="@color/teal_200"
+        android:background="@color/white"
         android:gravity="center"
         android:text="@string/sintomatologia"
         android:textColor="@color/black"
@@ -44,6 +44,7 @@
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginBottom="8dp"
+            android:background="#009688"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -55,14 +56,14 @@
 
                 <TextView
                     android:id="@+id/P_malestar"
-                    android:layout_width="wrap_content"
+                    android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="@string/P_malestar"
-                    android:textColor="@color/black"
+                    android:text="@string/P_vivienda"
+                    android:textColor="@color/white"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
 
@@ -74,7 +75,12 @@
                     android:layout_marginTop="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="SI" />
+                    android:shadowColor="#DFD0CB"
+                    android:text="SI"
+                    android:textColor="#FFFFFF"
+                    android:textColorHighlight="#FFFFFF"
+                    android:textColorHint="#EAEAEA"
+                    android:textColorLink="#F4F4F4" />
 
                 <RadioButton
                     android:id="@+id/radioButton5"
@@ -84,7 +90,8 @@
                     android:layout_marginTop="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="NO" />
+                    android:text="NO"
+                    android:textColor="#F3F0F0" />
 
             </TableRow>
 
@@ -94,14 +101,14 @@
 
                 <TextView
                     android:id="@+id/P_fiebre"
-                    android:layout_width="wrap_content"
+                    android:layout_width="202dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
                     android:text="@string/P_fiebre"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/P_malestar" />
 
@@ -113,7 +120,8 @@
                     android:layout_marginTop="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="SI" />
+                    android:text="SI"
+                    android:textColor="#FAFAFA" />
 
                 <RadioButton
                     android:id="@+id/radioButton7"
@@ -123,7 +131,8 @@
                     android:layout_marginTop="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="NO" />
+                    android:text="NO"
+                    android:textColor="#FFFFFF" />
 
             </TableRow>
 
@@ -133,15 +142,15 @@
 
                 <TextView
                     android:id="@+id/P_respiraracion"
-                    android:layout_width="wrap_content"
+                    android:layout_width="187dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="@string/P_respiraracion"
+                    android:text="@string/P_malestar"
                     android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/P_fiebre" />
 
@@ -153,7 +162,8 @@
                     android:layout_marginTop="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="SI" />
+                    android:text="SI"
+                    android:textColor="#FFFFFF" />
 
                 <RadioButton
                     android:id="@+id/radioButton9"
@@ -163,7 +173,8 @@
                     android:layout_marginTop="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="NO" />
+                    android:text="NO"
+                    android:textColor="#FFFFFF" />
 
             </TableRow>
 
@@ -173,7 +184,7 @@
 
                 <TextView
                     android:id="@+id/P_perdida"
-                    android:layout_width="wrap_content"
+                    android:layout_width="179dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginLeft="8dp"
@@ -182,7 +193,7 @@
                     android:editable="false"
                     android:text="@string/P_perdida"
                     android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/P_respiraracion" />
 
@@ -194,7 +205,8 @@
                     android:layout_marginTop="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="SI" />
+                    android:text="SI"
+                    android:textColor="#FFFFFF" />
 
                 <RadioButton
                     android:id="@+id/radioButton11"
@@ -204,7 +216,8 @@
                     android:layout_marginTop="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="NO" />
+                    android:text="NO"
+                    android:textColor="#FFFFFF" />
             </TableRow>
 
             <TableRow
@@ -221,11 +234,12 @@
                     android:layout_marginBottom="8dp"
                     android:clickable="false"
                     android:ems="10"
-                    android:gravity="start|top"
 
+                    android:enabled="false"
+                    android:gravity="start|top"
                     android:inputType="textMultiLine"
-                    android:text="@string/P_vivienda"
-                    android:textColor="@color/black"
+                    android:text="@string/P_respiraracion"
+                    android:textColor="@color/white"
                     android:textSize="14sp" />
 
                 <RadioButton
@@ -236,7 +250,8 @@
                     android:layout_marginTop="16dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="SI" />
+                    android:text="SI"
+                    android:textColor="#FFFFFF" />
 
                 <RadioButton
                     android:id="@+id/radioButton13"
@@ -246,7 +261,8 @@
                     android:layout_marginTop="16dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="NO" />
+                    android:text="NO"
+                    android:textColor="#FFFFFF" />
             </TableRow>
 
             <TableRow
@@ -263,10 +279,11 @@
                     android:layout_marginBottom="8dp"
                     android:clickable="false"
                     android:ems="10"
+                    android:enabled="false"
                     android:gravity="start|top"
                     android:inputType="textMultiLine"
-                    android:text="@string/P_contacto"
-                    android:textColor="@color/black"
+                    android:text="@string/P_cercanoPositivo"
+                    android:textColor="@color/white"
                     android:textSize="14sp" />
 
                 <RadioButton
@@ -276,7 +293,8 @@
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="24dp"
                     android:layout_marginRight="8dp"
-                    android:text="SI" />
+                    android:text="SI"
+                    android:textColor="#FFFFFF" />
 
                 <RadioButton
                     android:id="@+id/radioButton15"
@@ -286,7 +304,8 @@
                     android:layout_marginTop="24dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="NO" />
+                    android:text="NO"
+                    android:textColor="#FFFFFF" />
             </TableRow>
 
             <TableRow
@@ -302,10 +321,11 @@
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
                     android:ems="10"
+                    android:enabled="false"
                     android:gravity="start|top"
                     android:inputType="textMultiLine"
-                    android:text="@string/P_cercanoPositivo"
-                    android:textColor="@color/black"
+                    android:text="@string/P_contacto"
+                    android:textColor="@color/white"
                     android:textSize="14sp" />
 
                 <RadioButton
@@ -316,7 +336,8 @@
                     android:layout_marginTop="24dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="SI" />
+                    android:text="SI"
+                    android:textColor="#FFFFFF" />
 
                 <RadioButton
                     android:id="@+id/radioButton17"
@@ -326,7 +347,9 @@
                     android:layout_marginTop="24dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="NO" />
+                    android:text="NO"
+                    android:textColor="#FFFFFF" />
+
             </TableRow>
         </TableLayout>
 
